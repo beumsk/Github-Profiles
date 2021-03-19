@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Github profile</title>
+  <meta name="description" content="Search Github profiles via Github API">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <section class="container text-center"> 
+  
+  <h1 class="text-center text-uppercase">Github Profile</h1>
+   
+  <form>
+    <div class="form-group">
+				<label class="sr-only">Github User</label>
+				<div class="input-group">
+					<input id="user" type="text" class="form-control input-sm" placeholder="Github User" required>
+					<span class="input-group-btn">
+						<button type="submit" class="btn btn-default btn-sm">Search</button>
+					</span>
+				</div>
+			</div>
+  </form>
+
+  <div id="profile">
+    <img class="responsive" height="200px" src="https://res.cloudinary.com/beumsk/image/upload/v1520448223/github.jpg">
+  </div>
+</section>
+
+<script  src="js/index.js"></script>
+
+</body>
+
+</html>
